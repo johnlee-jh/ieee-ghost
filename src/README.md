@@ -7,6 +7,8 @@ install all dependencies with `npm install`, then launch the environment with
 `npm run docker-watch`. Webpack will watch changes made to the repository and
 update the theme (+ refresh your browser) accordingly.
 
+`docker-compose down` to kill your server.
+
 #### Setting up push deployment
 You should follow these instructions if you plan to deploy to a live site.
 To deploy, ensure that you have a .env setup from .env.example.
